@@ -1,0 +1,37 @@
+<html>
+    <head> 
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="registrationform">
+        <h1>Registration Form</h1> 
+        <form action="registration.php" method="POST">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname"><br><br>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname"><br><br>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender"><br><br>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br><br>
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" id="dob" name="dob" ><br><br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="phonenumber">Phone Number:</label>
+            <input type="tel" id="phonenumber" name="phonenumber"><br><br>
+            <label for="city" >City:</label>
+            <input type="text" id="city" name="city" ><br><br>
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <input type="submit" name="save" value="Submit">
+            
+        </form>
+  
+    </body>
+</html>
